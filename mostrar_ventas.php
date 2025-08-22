@@ -207,7 +207,6 @@
         <div class="links-group">
             <a href="formulario.html">Ingresar nueva venta</a>
             <a href="reporte_ventas.php">Ver Reporte de Ventas</a>
-            <a href="http://localhost/phpmyadmin" target="_blank">Ver en phpMyAdmin</a>
         </div>
     </div>
 </body>
