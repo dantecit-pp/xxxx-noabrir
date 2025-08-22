@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stilo.css">
+<title>Ingresar Venta</title>
+
+</head>
+
+<body>
+
+<h1>Registro de Ventas</h1>
+
+<form action="guardar_venta.php" method="post">
+
+<label for="fecha">Fecha:</label>
+
+<input type="date" name="fecha" required><br><br>
+
+
+<label for="cliente">Cliente:</label>
+
+<input type="text" name="cliente" required><br><br>
+
+
+<label for="monto">Monto ($):</label>
+
+<input type="number" step="0.01" name="monto" required><br><br>
+
+
+<input type="submit" value="Guardar Venta">
+
+</form>
+
+</body>
+
+</html>
